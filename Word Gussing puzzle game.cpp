@@ -94,14 +94,14 @@ int call()
 	{
 		// do nothing
 	}
-    if(hint==2)
-    {
-     cout<<"Guessed word in puzzle size is  :       ";
-     cout<<output.size();
-     cout<<endl;
-    }
-    else
-    {
+       else if(hint==2)
+       {
+       cout<<"Guessed word in puzzle size is  :       ";
+       cout<<output.size();
+       cout<<endl;
+       }
+       else
+       {
     	cout<<"Invalid input	";
     	goto label1;
 	}
