@@ -93,6 +93,12 @@ int call()
 	if(hint==1)
 	{
 		// do nothing
+		//This part will be empty because in this part i have to ask user input for guess variable
+		//But this part was common in if and else if also.So, i just write cin>>guess part outside if/elseif
+		//You can also write that part here but then you have to write it in else if also but if you do this then you 
+		//cannot write this thing after ifelseif .Because it will ask input again 2 times then .So  you have 2 methods
+		//1)You can simple use this code
+		//2)You can cut(Ctrlx+X) line 114 and 115 and past(Ctrl+V) it in if and else if
 	}
        else if(hint==2)
        {
